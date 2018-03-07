@@ -6,6 +6,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'django-shop-paypal', 'url': 'http://pypi.python.org/pypi/django-shop-paypal/0.0.1'},
 	{'name':'djangoshop-paypal', 'url': 'http://pypi.python.org/pypi/djangoshop-paypal/0.2.1'},
     ]
     context = {
