@@ -6,6 +6,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'djangoshop-paypal', 'url': 'http://pypi.python.org/pypi/djangoshop-paypal/0.2.1'},
     ]
     context = {
         'title': 'sgmagar-crowdbotics-69',
