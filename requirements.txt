@@ -7,3 +7,4 @@ whitenoise==3.3.0
 djangoshop-paypal
 django-shop-paypal
 django-paypal2
+aa_stripe
