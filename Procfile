@@ -1,0 +1,1 @@
+web: waitress-serve --port=$PORT sgmagar_crowdbotics_69.wsgi:application
